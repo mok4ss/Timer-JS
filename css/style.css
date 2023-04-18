@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #000;
+  color: aliceblue;
+  display: flex;
+  height: 100px;
+}
+header h1 {
+  display: flex;
+  position: relative;
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.timer {
+  position: relative;
+  font: 15em sans-serif;
+  text-align: center;
+}
+
+.start,
+.stop,
+.reset {
+  width: 260px;
+  height: 130px;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+}
+.start,
+.stop,
+.reset {
+  margin: 0 auto;
+}
+.start {
+  background: rgb(115, 192, 115);
+}
+.stop {
+  background: rgb(246, 72, 72);
+}
+.reset {
+  background: rgb(189, 229, 31);
+}
